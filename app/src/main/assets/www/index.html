@@ -6,26 +6,33 @@
     .button {
     background-color: #009800;
     }
+    .inputForm{
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+   }
     </style>
 
 </head>
 <body bgcolor="#FEFF64" >
 
-<input type="text" id="firstname" placeholder="Name"/>
+<input name="txtId" type="text" class="inputForm" placeholder="Name" style="width: 100%; height: 50px; margin-bottom: 10px;" />
 <br/>
-<input type="email" id="Email" placeholder="Email"/>
-<br/>
-
-<input type="number" id="contact" placeholder="Contact No"/>
+<input type="email" id="Email" class="inputForm" placeholder="Email" style="width: 100%; height: 50px; margin-bottom: 10px;"/>
 <br/>
 
-<input type="text" id="address" placeholder="Address"/>
+<input type="number" id="contact"  class="inputForm" placeholder="Contact No" style="width: 100%; height: 50px; margin-bottom: 10px;"/>
 <br/>
 
-<input type="" id="class">
+<input type="text" id="address" class="inputForm" placeholder="Address" style="width: 100%; height: 100px; margin-bottom: 10px;"/>
+<br/>
+
+<input type="" id="class" class="inputForm" style="width: 100%; height: 50px; margin-bottom: 10px;">
+
+<dropdown placeholder="Colour..."  selected="colour" property="name"></dropdown>
 
 <br/>
-<input type="submit" id="add"  >
+<input type="submit" id="add" class="inputForm"  style="width: 100%; height: 50px; margin-bottom: 10px; background-color: #009800;">
 
 </body>
 </html>
